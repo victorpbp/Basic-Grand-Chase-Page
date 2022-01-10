@@ -1,5 +1,66 @@
 .App {
   text-align: center;
+  /*background-color: rgb(43, 174, 184);
+  background-color: rgb(170, 54, 54);*/
+}
+
+
+.header {
+  background-image: url(./images/gcworld.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;}
+
+.places {
+  background-image: linear-gradient(to right, #33625d, #189b7b, #1eb096, #00d4ff);
+  overflow: auto; /* overflow auto is there so the h1 margins won't stick out of the div border and create those void spaces*/
+  font-size: calc(10px + 1vmin);
+}
+
+.charactersstuff {
+  background-image: linear-gradient(to right, rgb(211, 75, 75), rgb(199, 199, 67));
+  overflow: auto; 
+  font-size: calc(10px + 1vmin);
+}
+
+.continents , .charaInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: calc(10px + 1vmin);
+}
+
+.descriptionArea {
+
+  max-width: 40vw;
+
+  padding-right: 10vw;
+
+}
+
+
+.showhide {
+  display: flex;
+  justify-content: center;
+}
+
+.showhide h2 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border: solid;
+  background-image: linear-gradient(to left, rgb(247, 0, 0), rgb(255, 255, 0));
+  cursor: pointer;
+}
+
+/*.App {
+  text-align: center;
 }
 
 .App-logo {
@@ -36,3 +97,22 @@
     transform: rotate(360deg);
   }
 }
+*/
+
+/*
+.gameplay h1 {
+  font-size: calc(10px + 2vmin);
+}
+
+.gameplay h2 {
+  font-size: calc(10px + 1.5vmin);
+}
+
+.gameplay h3 {
+  font-size: calc(10px + 1vmin);
+}
+
+.gameplay p {
+  font-size: calc(10px + 0.8vmin);
+}
+*/
